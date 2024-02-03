@@ -6,7 +6,7 @@ export default async function getFiveDayForecast(
   lon: number
 ): Promise<WeatherApiResponse> {
   const response = await axios.get<WeatherApiResponse>(
-    `http://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${
+    `//api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${
       import.meta.env.VITE_WEATHER_API_KEY
     }`
   );
