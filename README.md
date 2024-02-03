@@ -1,30 +1,36 @@
-# React + TypeScript + Vite
+<h1 align="center">
+Weather APP
+</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h4 align="center">An App that returns the five day forecast from OpenWeather API</h4>
 
-Currently, two official plugins are available:
+<p align="center">
+  <a href="#key-features">Key Features</a> •
+  <a href="#how-to-use">How To Use</a>
+  <a href="#how-to-use">Demo</a>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+</p>
 
-## Expanding the ESLint configuration
+## How To Use
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
-- Configure the top-level `parserOptions` property like this:
+```bash
+# Clone this repository
+$ git clone https://github.com/jmailey/weather-app.git
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+# Go into the repository
+$ cd weather-app
+
+# Install dependencies
+$ yarn install
+
+# Run the app
+$ yarn dev
+
+# Build the app
+$ yarn build
+
+# Run tests
+$ yarn test
 ```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
