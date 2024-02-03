@@ -5,7 +5,7 @@ import {
   SetStateAction,
   useState,
 } from "react";
-import LocationSelector from "../LocationSelector";
+import LocationSelector from "../locationSelector/LocationSelector";
 import Button from "../button/Button";
 import useGeoCoderAPI from "../../hooks/useGeoCoderAPI/useGeoCoderAPI";
 import { WeatherApiResponse } from "../../api/responseTypes";

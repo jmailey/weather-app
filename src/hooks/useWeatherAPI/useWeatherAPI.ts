@@ -1,6 +1,6 @@
 import { useState } from "react";
-import getFiveDayForecast from "../api/getFiveDayForecast";
-import { Coord } from "../api/responseTypes";
+import getFiveDayForecast from "../../api/getFiveDayForecast";
+import { Coord } from "../../api/responseTypes";
 
 export default function useWeatherAPI() {
   const [fetching, setFetching] = useState(false);

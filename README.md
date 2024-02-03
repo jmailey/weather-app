@@ -6,8 +6,8 @@ Weather APP
 
 <p align="center">
   <a href="#key-features">Key Features</a> •
-  <a href="#how-to-use">How To Use</a>
-  <a href="#how-to-use">Demo</a>
+  <a href="#how-to-use">How To Use</a> •
+  <a target="__blank" rel="noopener" href="https://weather-app-three-eta-54.vercel.app/">Demo</a>
 
 </p>
 
@@ -34,3 +34,9 @@ $ yarn build
 # Run tests
 $ yarn test
 ```
+
+## Future improvements
+
+1. Possibly introduce react context or redux so we dont need to pass getters and setters into components. There is not much state needed as yet so I didn't feel like it needed a big state management system yet.
+
+2. Use ReactQuery and take advantage of caching and fetching states so we don't have to keep rolling our own.

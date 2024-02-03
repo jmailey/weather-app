@@ -1,11 +1,11 @@
-import Button from "./button/Button";
-import useWeatherAPI from "../hooks/useWeatherAPI";
+import Button from "../button/Button";
+import useWeatherAPI from "../../hooks/useWeatherAPI/useWeatherAPI";
 import { Dispatch, SetStateAction } from "react";
 import {
   Coord,
   LocationApiResponse,
   WeatherApiResponse,
-} from "../api/responseTypes";
+} from "../../api/responseTypes";
 
 type LocationSelectorProps = {
   locations: LocationApiResponse;
