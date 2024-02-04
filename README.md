@@ -7,6 +7,7 @@ Weather APP
 <p align="center">
   <a href="#key-features">Key Features</a> •
   <a href="#how-to-use">How To Use</a> •
+  <a href="#future-improvements">Future improvements</a> •
   <a target="__blank" rel="noopener" href="https://weather-app-three-eta-54.vercel.app/">Demo</a>
 
 </p>
