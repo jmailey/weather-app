@@ -2,7 +2,7 @@ import { convertTimestampsToDays } from "./convertTimestampsToDays";
 import { mockWeatherAPIResponse } from "./mockWeatherAPIResponse";
 
 describe("convertTimestampsToDays", () => {
-  it("Converts a list of timeStamps into object where keys are dates and values are arrays of weather periods for day", () => {
+  it("Takes a <WeatherAPIResponse> and returns an object { '03/02/2024': WeatherList[] }", () => {
     const days = convertTimestampsToDays(mockWeatherAPIResponse);
     const expectedObjectKeys = [
       "03/02/2024",
