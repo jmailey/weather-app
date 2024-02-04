@@ -20,7 +20,6 @@ export default function LocationSearch({
   forecast,
 }: LocationSearchProps) {
   const [location, setLocation] = useState("");
-
   const { errorMessage, fetchLocations, locations, fetching } =
     useGeoCoderAPI();
 
@@ -40,7 +39,7 @@ export default function LocationSearch({
         className="grid gap-8 bg-slate-200 p-8 mb-8 max-w-lg m-auto"
       >
         <div className="grid gap-1">
-          <label htmlFor="location">Find forecast for next 5 days</label>
+          <label htmlFor="location">Search location</label>
           <input
             type="text"
             autoFocus
