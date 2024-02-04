@@ -54,6 +54,6 @@ $ yarn test
 
 3. Use ReactQuery and take advantage of caching and fetching states so we don't have to keep rolling our own.
 
-4. Write some more tests.
+4. Write some more tests including API Error handling.
 
 5. Further look into the https://openweathermap.org/ API, possible better solution for date conversions etc.
