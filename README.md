@@ -35,8 +35,24 @@ $ yarn build
 $ yarn test
 ```
 
+## Key Features
+
+1. The application can return a weather forecast for a given location for the next five days.
+
+2. Users can search for a location
+
+3. If multiple locations are found a location selector will show and allow them to select.
+
+4. Once a location is selected the user will get the forecast for the next five days.
+
 ## Future improvements
 
-1. Possibly introduce react context or redux so we dont need to pass getters and setters into components. There is not much state needed as yet so I didn't feel like it needed a big state management system yet.
+1. Introduce react context, redux or any other state management design so we do not need to pass getters, setters or other props into components.
 
-2. Use ReactQuery and take advantage of caching and fetching states so we don't have to keep rolling our own.
+2. The intended behavior is for the LocationSelector is for it not to show if only one location is returned from the geoCoderAPI and for the weatherAPI to be called without more user interaction. This still need to be implemented
+
+3. Use ReactQuery and take advantage of caching and fetching states so we don't have to keep rolling our own.
+
+4. Write some more tests.
+
+5. Further look into the https://openweathermap.org/ API, possible better solution for date conversions etc.
