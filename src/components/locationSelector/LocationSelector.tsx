@@ -32,13 +32,13 @@ export default function LocationSelector({
   return (
     <>
       <h2 className="text-center" data-testid="locations-found-heading">
-        Found {locations.length} results, please select the correct one.{" "}
+        Found {locations.length} results for location, please select.
       </h2>
       <div className="md:flex justify-center">
         {locations.map(({ state, country, lat, lon }, index) => (
           <div
             key={index}
-            className="p-4 text-center flex justify-between bg-slate-200 mb-2 items-center"
+            className="p-4 text-center flex md:block justify-between bg-slate-200 mb-2 items-center"
           >
             <div>
               <span>{state}</span>, <span>{country}</span>
