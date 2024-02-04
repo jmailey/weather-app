@@ -5,8 +5,8 @@ Weather APP
 <h4 align="center">An App that returns the five day forecast from OpenWeather API</h4>
 
 <p align="center">
-  <a href="#key-features">Key Features</a> •
   <a href="#how-to-use">How To Use</a> •
+  <a href="#key-features">Key Features</a> •
   <a href="#future-improvements">Future improvements</a> •
   <a target="__blank" rel="noopener" href="https://weather-app-three-eta-54.vercel.app/">Demo</a>
 
@@ -56,4 +56,6 @@ $ yarn test
 
 4. Write some more tests including API Error handling.
 
-5. Further look into the https://openweathermap.org/ API, possible better solution for date conversions etc.
+5. Improve Error handling in components.
+
+6. Further look into the https://openweathermap.org/ API, possible better solution for date conversions etc.
